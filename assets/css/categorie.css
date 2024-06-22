@@ -1,0 +1,94 @@
+.vitamin_about{
+    margin-top: 60px;
+}
+.vitamin_box {
+    display: flex;
+    gap: 120px;
+    justify-content: center;
+}
+
+.vitamin_text {
+    width: 100%;
+    font-family: 'Inter', sans-serif;
+    font-size: 28px;
+    font-weight: 300;
+    line-height: 52.8px;
+    letter-spacing: 0.7039999961853027px;
+
+}
+.vitamin_img{
+    max-width: 430px;
+    width: 100%;
+}
+
+@media (max-width:1200px) {
+    .vitamin_box {
+        flex-direction: column;
+        gap: 90px;
+        align-items: center;
+    }
+    .vitamin_text {
+        text-align: center;
+        line-height: 180%;
+    }
+}
+@media (max-width:1000px) {
+    .vitamin_box {
+        gap: 70px;
+    }
+    .vitamin_text {
+        line-height: 160%;
+    }
+}
+@media (max-width:1000px) {
+    .vitamin_box {
+        gap: 50px;
+
+    }
+    .vitamin_text {
+        line-height: 150%;
+        font-size: 24px;
+
+    }
+}
+@media (max-width:750px) {
+    .vitamin_box {
+        gap: 40px;
+
+    }
+    .vitamin_text {
+        line-height: 140%;
+        font-size: 22px;
+
+    }
+    .vitamin_img{
+        max-width: 430px;
+        width: 100%;
+    }
+}
+@media (max-width:650px) {
+    .vitamin_box {
+        gap: 30px;
+
+    }
+    .vitamin_text {
+        font-size: 20px;
+
+    }
+    .vitamin_img{
+        max-width: 390px;
+        width: 100%;
+    }
+}
+@media (max-width:550px) {
+    .vitamin_img{
+        max-width: 350px;
+        width: 100%;
+    }
+}
+@media (max-width:450px) {
+    .vitamin_img{
+        max-width: 300px;
+        width: 100%;
+    }
+}
