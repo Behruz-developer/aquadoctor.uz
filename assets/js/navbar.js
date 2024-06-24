@@ -1,6 +1,6 @@
 document.addEventListener("DOMContentLoaded", function () {
   const navHeight = document.querySelector(".nav").offsetHeight;
-  const links = document.querySelectorAll(".nav_link, .nav_link2"); // Navbar va dropdown linklarni tanlaymiz
+  const links = document.querySelectorAll(".nav_link, .lang-button");
   const navList = document.querySelector(".nav_list");
   const openBtn = document.querySelector(".open_btn");
   const closeBtn = document.querySelector(".close_btn");
@@ -76,5 +76,14 @@ document.addEventListener("DOMContentLoaded", function () {
       closeAllDropdowns();
     }
   });
+  const langButtons = document.querySelectorAll(".lang-button");
+  langButtons.forEach((button) => {
+    button.addEventListener("click", function () {
+      if (window.innerWidth < 1200) {
+        navList.style.transform = "translateX(-110%)";
+      }
+    });
+  });
   AOS.init();
+  
 });
