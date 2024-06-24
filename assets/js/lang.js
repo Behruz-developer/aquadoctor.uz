@@ -33,13 +33,8 @@ const langData = {
     "product4": "Tez yetkazib berish",
     "product5": "Almashish va qaytarish",
     "product6": "O'rnatish uchun maxsus shartlar va ulgurji tashkilotlar",
-    
     "categories11": "Hovuz nasoslari suvning tozaligi va gigienasini saqlashda muhim rol o'ynaydi. Ular suvning aylanishini, ifloslantiruvchi moddalarni filtrlashni va kimyoviy moddalarning bir tekis taqsimlanishini ta'minlaydi. Nasosni tanlashda hovuz hajmini, qurilmaning quvvatini va uning energiya samaradorligini hisobga olish kerak.",
     "news_text2": "MSD Animal Health o'zining intradermal cho'chqa vaktsinalari qatoriga yangi qo'shimchani taqdim etadi - Porcilis® M Hyo ID Once",
-    
-    "": "",
-    "": "",
-    "": "",
     "news_title1": "Uy hayvonlari gigienasi bozori",
     "new_text1": "Har yili egalari hayvonlarning gigienasiga ko'proq e'tibor berishadi. Uy hayvonlarini parvarish qilish mahsulotlari segmenti jadal rivojlanib, yangi tendentsiyalarni yaratmoqda.",
     "news_title2": "Rossiya uy hayvonlari biznesi sammitining ikkinchi kuni 2024",
@@ -71,6 +66,8 @@ const langData = {
     "news_text3": "Intervet MChJ kompaniyasi Rossiya bozorida cho'chqalarning enzootik pnevmoniyasiga qarshi inaktivlangan Porcilis ® M Hyo ID One vaktsinasini taqdim etadi.",
     "title": "Shunga o'xshash mahsulotlar",
     "uznat": "Ko'proq biling",
+    "modal": "Sizning so'rovingiz yuborildi✅", 
+
     "": "",
 
   },
@@ -109,11 +106,8 @@ const langData = {
       "product5": "Обмен и возврат",
       "product6": "Спец условия для монтажных и оптовых организаций",
       "categories11": "Насосы для бассейна играют ключевую роль в поддержании чистоты и гигиены воды. Они обеспечивают циркуляцию воды, фильтрацию загрязнений и равномерное распределение химических веществ. При выборе насоса важно учитывать размер бассейна, мощность устройства и его энергоэффективность.",
-      "": "",
-      "": "",
       "news_text2": "MSD Animal Health представляет новинку в ассортименте интрадермальных вакцин для свиней — Порцилис® M Hyo ID Once",
       "news_text3": "Компания ООО «Интервет» представляет на российском рынке инактивированную вакцину Порцилис ® M Hyo ID Once против энзоотической пневмонии свиней.",
-
       "news_title1": "Рынок средств гигиены для домашних животных", 
       "new_text1": "С каждым годом гигиена животных всё больше заботит владельцев. Сегмент средств по уходу за питомцами стремительно развивается, формируя новые тренды.", 
       "news_title2": "Второй день Саммита зообизнеса России –2024", 
@@ -142,9 +136,10 @@ const langData = {
       "news_text1": "16 ноября, 2021",
       "news1": "ПОПУЛЯРНЫЕ НОВОСТИ", 
       "link": "Смотреть все ", 
-
       "title": "Похожие товары", 
       "uznat": "Узнать больше", 
+      "modal": "Ваш запрос отправлен✅", 
+
       "": "", 
   },
   "en": {
@@ -183,9 +178,6 @@ const langData = {
     "product6": "Special conditions for installation and wholesale organizations  ",
     "link": "See all",
     "categories11": "Pool pumps play a key role in maintaining the cleanliness and hygiene of the water. They ensure water circulation, filtration of pollutants and uniform distribution of chemicals. When choosing a pump, it is important to take into account the size of the pool, the power of the device and its energy efficiency.",
-    "": "",
-    "": "",
-    "": "",
     "news_title1": "Pet hygiene market", 
     "new_text1": "Every year, owners become more and more concerned about animal hygiene. The pet care products segment is rapidly developing, creating new trends.", 
     "news_title2": "Second day of the Russian Pet Business Summit 2024", 
@@ -217,7 +209,7 @@ const langData = {
     "news_text3": "Intervet LLC presents the inactivated Porcilis ® M Hyo ID Once vaccine against swine enzootic pneumonia on the Russian market.",
     "title": "Related Products", 
     "uznat": "To learn more", 
-
+    "modal": "Your request has been sent✅", 
     "": "", 
   }
 };
