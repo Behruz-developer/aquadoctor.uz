@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="assets/css/style.css">
-    <link rel="stylesheet" href="assets/css/all_pructs.css">
+    <link rel="stylesheet" href="assets/css/all_products.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
 
@@ -23,11 +23,11 @@
                 <label class="open_btn" for="check"><i class="  fa fa-bars"></i></label>
                 <ul class='nav_list'>
                     <label class="close_btn"><i class="fa fa-close"></i></label>
-                    <li><a href="index.html" class="nav_link">Home</a></li>
-                    <li><a href="all_products.html" class="nav_link">Products</a></li>
-                    <li><a href="all_categories.html" class="nav_link">Categories</a></li>
-                    <li><a href="all_news.html" class="nav_link">News</a></li>
-                    <li><a href="#footer" class="nav_link">Contacts</a></li>
+                    <li><a href="index.html" class="nav_link lang" key="home"></a></li>
+                    <li><a href="all_products.html" class="nav_link lang" key="products"></a></li>
+                    <li><a href="all_categories.html" class="nav_link lang" key="categories1"></a></li>
+                    <li><a href="all_news.html" class="nav_link lang" key="new"></a></li>
+                    <li><a href="#footer" class="nav_link lang" key="contact"></a></li>
                     <div class="nav_lang">
                         <p class="lang-button active_lang" data-lang="ru">RU</p>
                         <p class="lang-button" data-lang="uz">UZ</p>
@@ -44,14 +44,14 @@
                 <div class="img_card carousel-image current">
                     <img src="assets/images/slider.png" alt="" class=" " />
                     <div class="img_text">
-                        <h3 class="">The best solution for your pool </h3>
+                        <h3 class="lang" key="product"> </h3>
                     </div>
                 </div>
 
                 <div class="img_card carousel-image ">
                     <img src="assets/images/slider2.png" alt="" class=" " />
                     <div class="img_text">
-                        <h3 class="" key="news">The best solution for your pool</h3>
+                        <h3 class="lang" key="product"></h3>
                     </div>
                 </div>
             </div>
@@ -62,45 +62,43 @@
         </div>
     </div>
     <section class="products">
-        <h2 class="products_title">Our Products</h2>
         <div class="container">
             <div class="products_box">
-                <a href="#!" class="products_card">
+                <a href="products.html" class="products_card">
                     <img class="products_img" src="assets/images/product1.png" alt="">
-                    <p class="products_text">pH minus</p>
+                    <p class="products_text lang" key="product2"></p>
                 </a>
-                <a href="#!" class="products_card">
+                <a href="products.html" class="products_card">
                     <img class="products_img" src="assets/images/product1.png" alt="">
-                    <p class="products_text">pH minus</p>
+                    <p class="products_text lang" key="product2">pH minus</p>
                 </a>
-                <a href="#!" class="products_card">
+                <a href="products.html" class="products_card">
                     <img class="products_img" src="assets/images/product1.png" alt="">
-                    <p class="products_text">pH minus</p>
+                    <p class="products_text lang" key="product2">pH minus</p>
                 </a>
-                <a href="#!" class="products_card">
+                <a href="products.html" class="products_card">
                     <img class="products_img" src="assets/images/product1.png" alt="">
-                    <p class="products_text">pH minus</p>
+                    <p class="products_text lang" key="product2">pH minus</p>
                 </a>
-                <a href="#!" class="products_card">
+                <a href="products.html" class="products_card">
                     <img class="products_img" src="assets/images/product1.png" alt="">
-                    <p class="products_text">pH minus</p>
+                    <p class="products_text lang" key="product2">pH minus</p>
                 </a>
-                <a href="#!" class="products_card">
+                <a href="products.html" class="products_card">
                     <img class="products_img" src="assets/images/product1.png" alt="">
-                    <p class="products_text">pH minus</p>
+                    <p class="products_text lang" key="product2">pH minus</p>
                 </a>
-                <a href="#!" class="products_card">
+                <a href="products.html" class="products_card">
                     <img class="products_img" src="assets/images/product1.png" alt="">
-                    <p class="products_text">pH minus</p>
+                    <p class="products_text lang" key="product2">pH minus</p>
                 </a>
-
-                <a href="#!" class="products_card">
+                <a href="products.html" class="products_card">
                     <img class="products_img" src="assets/images/product1.png" alt="">
-                    <p class="products_text">pH minus</p>
+                    <p class="products_text lang" key="product2">pH minus</p>
                 </a>
-                <a href="#!" class="products_card">
+                <a href="products.html" class="products_card">
                     <img class="products_img" src="assets/images/product1.png" alt="">
-                    <p class="products_text">pH minus</p>
+                    <p class="products_text lang" key="product2">pH minus</p>
                 </a>
             </div>
         </div>
@@ -139,13 +137,13 @@
         <p class="map_subtitle2 lang" key="map_subtitle"></p>
         <div class="googlemap-container">
             <iframe className="googlemap"
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2995.2821120427075!2d69.285474!3d41.292812!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38aef5b6f192e5c3%3A0x2d96cf317b62c7c6!2sMirabad%20Street%2033%2C%20Tashkent%2C%20Uzbekistan!5e0!3m2!1sen!2s!4v1651779912384"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2995.2821120427075!2d69.260057!3d41.353134!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38aef448edf4fb75%3A0x72cbdbabd7f48e05!2s41.353134%2C%2069.260057!5e0!3m2!1sen!2s!4v1651779912384"
                 width="100%" height="450" allowFullScreen="" loading="lazy"
                 referrerPolicy="no-referrer-when-downgrade"></iframe>
         </div>
     </section>
     </main>
-    <footer class="footer">
+    <footer class="footer" id="footer">
         <div class="container">
             <div class="footer_box">
                 <a href="#home" id="home">

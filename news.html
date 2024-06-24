@@ -5,10 +5,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="assets/css/style.css">
-    <link rel="stylesheet" href="assets/css/products.css">
+    <link rel="stylesheet" href="assets/css/news.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
-    <title>Categories</title>
+
+    <title>All | News</title>
 </head>
 
 <body>
@@ -41,15 +42,16 @@
         <div class="carousel">
             <div class="items">
                 <div class="img_card carousel-image current">
-                    <img src="assets/images/categories1.jpeg" alt="" class=" " />
+                    <img src="assets/images/slider.png" alt="" class=" " />
                     <div class="img_text">
-                        <h3 class="lang" key="categories"> </h3>
+                        <h3 class="">ПОПУЛЯРНЫЕ НОВОСТИ </h3>
                     </div>
                 </div>
+
                 <div class="img_card carousel-image ">
                     <img src="assets/images/slider2.png" alt="" class=" " />
                     <div class="img_text">
-                        <h3 class="lang" key="categories"></h3>
+                        <h3 class="" key="news">ПОПУЛЯРНЫЕ НОВОСТИ</h3>
                     </div>
                 </div>
             </div>
@@ -59,66 +61,33 @@
             <i class="fa fa-chevron-right fa-3x" id="nextBtn"></i>
         </div>
     </div>
+
     <section class="product">
         <div class="container">
             <div class="product_box">
-                <div class="gallery-container">
-                    <div class="img-zoom-container">
-                        <img class="active_img" id="active-image" src="assets/images/product1.png" width="300"
-                            height="240">
-                        <div id="zoom-lens" class="img-zoom-lens"></div>
-                    </div>
-                    <div class="thumbnails">
-                        <img src="assets/images/product2.png" onclick="setActiveImage('assets/images/product2.png')">
-                        <img src="assets/images/product2.png" onclick="setActiveImage('assets/images/product2.png')">
-                        <img src="assets/images/product2.png" onclick="setActiveImage('assets/images/product2.png')">
-                    </div>
+                <div class="product_information_card">
+                    <p class="new_date lang" key="news_text1"></p>
+                    <h2 class="new_title lang" key="news_text2">MSD Animal Health представляет новинку в
+                        ассортименте интрадермальных вакцин для свиней —
+                        Порцилис® M Hyo ID Once</h2>
+                    <p class="new_text lang" key="news_text3">Компания ООО «Интервет» представляет на российском рынке инактивированную вакцину Порцилис ® M Hyo ID Once против энзоотической пневмонии свиней.</p>
                 </div>
-                <div class="product_card_text">
-                    <h2 class="product_title lang" key="product2">pH minus</h2>
-                    <p class="product_text lang" key="product3"></p>
-                </div>
-                <div class="product_icon_card">
-                    <div class="icon_card">
-                        <img src="assets/images/Vector.png" alt="">
-                        <p class="icon_text lang" key="product4"></p>
-                    </div>
-                    <div class="icon_card">
-                        <img src="assets/images/spExch.svg.png" alt="">
-                        <p class="icon_text lang" key="product5"></p>
-                    </div>
-                    <div class="icon_card">
-                        <img src="assets/images/spCond.svg fill.png" alt="">
-                        <p class="icon_text lang" key="product6"></p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <section class="products2">
-        <div class="container">
-            <h2 class="products2_title lang" key="title">Похожие товары</h2>
-            <div class="products2_box">
-                <div class="products_card">
-                    <img src="assets/images/product2.png" alt="">
-                    <p class="product_text2 lang" key="product2"></p>
-                    <a href="products.html" class="btn_product lang" key="uznat"></a>
-                </div>
-                <div class="products_card">
-                    <img src="assets/images/product2.png" alt="">
-                    <p class="product_text2 lang" key="product2"></p>
-                    <a href="products.html" class="btn_product lang" key="uznat"></a>
-                </div>
-                <div class="products_card">
-                    <img src="assets/images/product2.png" alt="">
-                    <p class="product_text2 lang" key="product2"></p>
-                    <a href="products.html" class="btn_product lang" key="uznat"></a>
-                </div>
-                
-            </div>
-        </div>
-    </section>
+                <div class="product_left">
+                    <a href="news.html" class="news_card">
+                        <img class="news_img" src="./assets/images/news.png" alt="">
+                        <p class="news_subtitle lang" key="news_title1"></p>
+                        <p class="news_text lang" key="new_text1"></p>
+                    </a>
+                    <a href="news.html" class="news_card">
+                        <img class="news_img" src="./assets/images/news.png" alt="">
 
+                        <p class="news_subtitle lang" key="news_title2"></p>
+                        <p class="news_text lang" key="new_text2"></p>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
     <form id="myForm" class="form">
         <div class="container">
             <h2 class="title2 lang" key="form_title"></h2>
@@ -152,8 +121,7 @@
         <p class="map_subtitle2 lang" key="map_subtitle"></p>
         <div class="googlemap-container">
             <iframe className="googlemap"
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2995.2821120427075!2d69.260057!3d41.353134!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38aef448edf4fb75%3A0x72cbdbabd7f48e05!2s41.353134%2C%2069.260057!5e0!3m2!1sen!2s!4v1651779912384"
-
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2995.2821120427075!2d69.260057!3d41.353134!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38aef448edf4fb75%3A0x72cbdbabd7f48e05!2s41.353134%2C%2069.260057!5e0!3m2!1sen!2s!4v1651779912384"
                 width="100%" height="450" allowFullScreen="" loading="lazy"
                 referrerPolicy="no-referrer-when-downgrade"></iframe>
         </div>
@@ -194,10 +162,11 @@
         </div>
     </div>
 
+
+    <script src="assets/js/slider.js"></script>
     <script src="assets/js/navbar.js"></script>
     <script src="assets/js/lang.js"></script>
     <script src="assets/js/modal.js"></script>
-    <script src="assets/js/product_photo_gallery.js"></script>
 </body>
 
 </html>

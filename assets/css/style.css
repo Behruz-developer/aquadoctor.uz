@@ -249,7 +249,7 @@
     position: absolute;
     color: white;
     width: 100%;
-    background-color: rgba(0, 0, 0, 0.4);
+    /* background-color: rgba(0, 0, 0, 0.4); */
     font-family: "Barlow", sans-serif;
     text-transform: uppercase;
     line-height: 1.2;

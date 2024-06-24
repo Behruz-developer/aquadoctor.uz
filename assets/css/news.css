@@ -1,0 +1,39 @@
+.new_date {
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 18.2px;
+    text-align: left;
+
+}
+
+.new_title {
+    font-family: 'Roboto', sans-serif;
+    font-size: 29.65px;
+    font-weight: 400;
+    line-height: 47px;
+    letter-spacing: -0.5px;
+    text-align: left;
+    color: #00857C;
+    max-width: 760px;
+    width: 100%;
+    margin-top: 30px;
+}
+
+.product_box {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.new_text {
+    font-family: 'Roboto', sans-serif;
+    font-size: 15.75px;
+    font-weight: 400;
+    line-height: 22.4px;
+    text-align: left;   
+    max-width: 490px;
+    width: 100%;
+    margin-top: 20px;
+}
