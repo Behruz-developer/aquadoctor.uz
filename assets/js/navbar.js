@@ -15,18 +15,18 @@ document.addEventListener("DOMContentLoaded", function () {
   }
 
   function smoothScroll(event) {
-    // Havola ichki bo'limmi yoki tashqi havolami aniqlash
+    
     const href = event.currentTarget.getAttribute("href");
     const isInternalLink = href.startsWith("#");
 
     if (isInternalLink) {
-      event.preventDefault(); // Standart harakatni to'xtatamiz
+      event.preventDefault(); 
       const targetId = href;
       const targetElement = document.querySelector(targetId);
       
       if (targetElement) {
         const targetPosition = targetElement.offsetTop;
-        const offsetPosition = targetPosition - navHeight - 40; // Navbar pastidan 40px balandlikda joylashadi
+        const offsetPosition = targetPosition - navHeight - 40; 
 
         window.scroll({
           top: offsetPosition,
@@ -35,7 +35,7 @@ document.addEventListener("DOMContentLoaded", function () {
       }
 
       if (window.innerWidth < 1200) {
-        navList.style.transform = "translateX(-110%)"; // Mobil menyuni yopamiz
+        navList.style.transform = "translateX(-110%)"; 
         closeAllDropdowns();
       }
     }
@@ -70,7 +70,6 @@ document.addEventListener("DOMContentLoaded", function () {
     }
   });
 
-  // Foydalanuvchi dropdown menyudan tashqari joyga bosganda, faqat mobil versiyada barcha dropdown menyulari yopiladi
   window.addEventListener('click', function(event) {
     if (!event.target.matches('.dropdown_toggle') && window.innerWidth < 1200) {
       closeAllDropdowns();
