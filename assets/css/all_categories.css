@@ -4,6 +4,14 @@
 }
 .categories_box{
     margin-top: 0;
+    justify-content: center;
+}
+.categories_card{
+    max-width: 300px;
+    width: 100%;
+}
+.categories_img{
+    width: 100%;
 }
 .form{
     margin-top: 50px;
