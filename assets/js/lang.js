@@ -4,6 +4,7 @@ const langData = {
     "products": "Mahsulotlar",
     "categories1": "Kategoriyalar",
     "new": "Yangiliklar",
+    "sertifikat": "Sertifikatlar",
     "contact": "Kontaktlar",
     "index_slider": "Hovuzingiz uchun eng yaxshi echim",
     "about1": "Biz haqimizda",
@@ -139,6 +140,7 @@ const langData = {
       "title": "Похожие товары", 
       "uznat": "Узнать больше", 
       "modal": "Ваш запрос отправлен✅", 
+      "sertifikat": "Сертификаты",
 
       "": "", 
   },
@@ -211,6 +213,8 @@ const langData = {
     "uznat": "To learn more", 
     "modal": "Your request has been sent✅", 
     "": "", 
+    "sertifikat": "Certificates",
+
   }
 };
 
