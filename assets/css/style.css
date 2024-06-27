@@ -610,13 +610,26 @@
     width: 100%;
     color: white;
 }
+.bg_product{
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    z-index: 1;
+    object-fit: cover;
 
-.products {
-    background-image: url('../images/products.png');
-    height: auto;
-    padding: 70px 0;
 }
+.products {
+    position: relative;
+    padding: 70px 0;
 
+
+}
+.container33 {
+    position: relative;
+    z-index: 2; /* Ensure content is above the background image */
+}
 .products_title {
     font-family: 'Montserrat', sans-serif;
     font-size: 50px;
@@ -624,6 +637,7 @@
     line-height: 56px;
     text-align: center;
     color: white;
+    margin-bottom: 40px;
 }
 
 .products_box {
@@ -631,13 +645,15 @@
     justify-content: center;
     flex-wrap: wrap;
     gap: 50px;
-    margin-top: 50px;
+    position: relative;
 }
 
 .products_card {
     max-width: 416px;
     width: 100%;
     text-decoration: none;
+    z-index: 3;
+
 }
 
 .products_img {
