@@ -439,6 +439,24 @@
     .about_text {
         text-align: center;
     }
+
+    .about_title {
+        font-size: 36px;
+    }
+
+    .about_text {
+        font-size: 18px;
+    }
+}
+
+@media (max-width:600px) {
+    .about_title {
+        font-size: 32px;
+    }
+
+    .about_text {
+        font-size: 16px;
+    }
 }
 
 .facilities {
@@ -544,9 +562,43 @@
     .facilities_box_card {
         grid-template-columns: repeat(1, 1fr);
     }
+
+    .facilities_title {
+        font-size: 36px;
+        line-height: 150%;
+    }
+
+    .facilities_subtitle {
+        font-size: 24px;
+        line-height: 140%;
+    }
+
+    .facilities_text {
+        font-size: 18px;
+    }
+}
+
+@media (max-width:600px) {
+    .facilities_title {
+        font-size: 30px;
+    }
+
+    .facilities_subtitle {
+        font-size: 22px;
+        line-height: 150%;
+    }
+
+    .facilities_text {
+        font-size: 16px;
+        line-height: 140%;
+
+    }
 }
 
 @media (max-width:475px) {
+    .facilities_subtitle {
+        font-size: 20px;
+    }
 
     .facilities_icon {
         width: 65px;
@@ -610,7 +662,8 @@
     width: 100%;
     color: white;
 }
-.bg_product{
+
+.bg_product {
     width: 100%;
     position: absolute;
     top: 0;
@@ -620,16 +673,20 @@
     object-fit: cover;
 
 }
+
 .products {
     position: relative;
     padding: 70px 0;
 
 
 }
+
 .container33 {
     position: relative;
-    z-index: 2; /* Ensure content is above the background image */
+    z-index: 2;
+    /* Ensure content is above the background image */
 }
+
 .products_title {
     font-family: 'Montserrat', sans-serif;
     font-size: 50px;
@@ -672,6 +729,42 @@
     text-align: center;
     color: white;
     margin-top: 12px;
+}
+
+@media (max-width:900px) {
+    .products_title {
+        font-size: 45px;
+    }
+}
+
+@media (max-width:700px) {
+    .products_title {
+        font-size: 40px;
+    }
+
+    .products {
+        padding: 40px 0;
+
+    }
+}
+
+@media (max-width:600px) {
+    .products_title {
+        font-size: 35px;
+    }
+
+    .products_img,
+    .products_card {
+        max-width: 350px;
+    }
+}
+
+@media (max-width:500px) {
+
+    .products_img,
+    .products_card {
+        max-width: 320px;
+    }
 }
 
 .news {
@@ -821,6 +914,10 @@
     .news {
         margin-top: 50px;
     }
+
+    .news_subtitle {
+        font-size: 25px;
+    }
 }
 
 .form {
@@ -856,7 +953,13 @@
 .map_subtitle2 {
     color: #000;
 }
+@media (max-width:800px) {
+    .title2,
+.map_title2 {
+    font-size: 27px;
 
+}
+}
 .form_box {
     width: 100%;
     display: flex;

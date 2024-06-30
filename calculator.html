@@ -3,13 +3,10 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="assets/css/style.css">
-    <link rel="stylesheet" href="assets/css/news.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
-
-    <title>All | News</title>
+    <link rel="stylesheet" href="assets/css/calculator.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
 </head>
 
 <body>
@@ -47,14 +44,14 @@
                 <div class="img_card carousel-image current">
                     <img src="assets/images/slider.png" alt="" class=" " />
                     <div class="img_text">
-                        <h3 class="">ПОПУЛЯРНЫЕ НОВОСТИ </h3>
+                        <h3 class="lang" key="calcul1"> </h3>
                     </div>
                 </div>
 
                 <div class="img_card carousel-image ">
                     <img src="assets/images/slider2.png" alt="" class=" " />
                     <div class="img_text">
-                        <h3 class="" key="news">ПОПУЛЯРНЫЕ НОВОСТИ</h3>
+                        <h3 class="lang" key="calcul1"></h3>
                     </div>
                 </div>
             </div>
@@ -64,31 +61,33 @@
             <i class="fa fa-chevron-right fa-3x" id="nextBtn"></i>
         </div>
     </div>
-
-    <section class="product">
+    <section class="calcul">
         <div class="container">
-            <div class="product_box">
-                <div class="product_information_card">
-                    <p class="new_date lang" key="news_text1"></p>
-                    <h2 class="new_title lang" key="news_text2">MSD Animal Health представляет новинку в
-                        ассортименте интрадермальных вакцин для свиней —
-                        Порцилис® M Hyo ID Once</h2>
-                    <p class="new_text lang" key="news_text3">Компания ООО «Интервет» представляет на российском рынке инактивированную вакцину Порцилис ® M Hyo ID Once против энзоотической пневмонии свиней.</p>
-                </div>
-                <div class="product_left">
-                    <a href="news.html" class="news_card">
-                        <img class="news_img" src="./assets/images/news.png" alt="">
-                        <p class="news_subtitle lang" key="news_title1"></p>
-                        <p class="news_text lang" key="new_text1"></p>
-                    </a>
-                    <a href="news.html" class="news_card">
-                        <img class="news_img" src="./assets/images/news.png" alt="">
-
-                        <p class="news_subtitle lang" key="news_title2"></p>
-                        <p class="news_text lang" key="new_text2"></p>
-                    </a>
+            <div class="calcul_box">
+                <div class="calcul_box_card">
+                    <div class="calcul_card">
+                        <p class="calcul_input_text lang" key="calcul2"></p>
+                        <input class="calcul_input" type="number" id="clean">
+                    </div>
+                    <div class="calcul_card">
+                        <p class="calcul_input_text lang" key="calcul3"></p>
+                        <input class="calcul_input" type="number" id="clean_want">
+                    </div>
+                    <div class="calcul_card">
+                        <p class="calcul_input_text lang" key="calcul4"></p>
+                        <input class="calcul_input" type="number" id="cube">
+                    </div>
+                    <div class="btn_card">
+                        <button class="btn_clear lang" key="calcul5"></button>
+                        <button class="btn_calcul lang" key="calcul6"></button>
+                    </div>
+                    <div class="calcul_reply_card">
+                        <h2 class="reply_text lang" key="calcul7"> </h2>
+                        <p class="amount">0</p>
+                    </div>
                 </div>
             </div>
+        </div>
         </div>
     </section>
     <form id="myForm" class="form">
@@ -148,6 +147,7 @@
                 <div class="footer_card">
                     <h2 class="footer_title lang" key="footer_text6"></h2>
                     <a href="#!" class="footer_link lang" key="telegram"></a>
+
                     <a href="https://www.instagram.com/aquadoctor_uz/" class="footer_link lang" key="instagram"></a>
                     <a href="#!" class="footer_link lang" key="facebook"></a>
                 </div>
@@ -165,11 +165,11 @@
         </div>
     </div>
 
-
     <script src="assets/js/slider.js"></script>
     <script src="assets/js/navbar.js"></script>
     <script src="assets/js/lang.js"></script>
     <script src="assets/js/modal.js"></script>
+    <script src="assets/js/calculator.js"></script>
 </body>
 
 </html>
